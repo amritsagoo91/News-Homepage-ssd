@@ -1,0 +1,82 @@
+  <section class="topHeadlines">
+
+      <article class="left">
+     
+        <h2>Popular now</h2>
+        <div class="top-3">
+            <h4>US military strikes Islamic State group targets in Syria, officials say</h4>
+            <p>US President Donald Trump ordered the "large-scale strikes" on Saturday, US Central Command announced.</p>
+            <small>2 hrs ago | World | <span style="color: red;"> &#9679; Live</span></small>
+        </div>
+        <div class="top-3">
+            <h4>Author Chimamanda Ngozi Adichie's family accuse hospital of negligence over son's death</h4>
+            <p>A hospital in Lagos denies medical negligence over the death of Chimamanda Ngozi Adichie's 21-month-old.</p>
+            <small>6 hrs ago | Africa</small>
+        </div>
+        <div class="top-3">
+            <h4>Winners and Sinners: What to expect from the Golden Globes</h4>
+            <p>Marty Supreme, Sinners and One Battle After Another are the films competing at this year's ceremony.</p>
+            <small>3 hrs ago | US & Canada</small>
+        </div>
+
+        <div class="top-3">
+          <h4>Trump won't take Greenland by force, Mandelson says</h4>
+          <p>The former UK ambassador to the US tells the BBC the president's advisers would likely warn him against the move.</p>
+          <small>4 hours ago | Politics</small>
+        </div>
+        <div class="top-3">
+          <h4>Trump won't take Greenland by force, Mandelson says</h4>
+          <p>The former UK ambassador to the US tells the BBC the president's advisers would likely warn him against the move.</p>
+          <small>4 hours ago | Politics</small>
+        </div>
+      
+    </article>
+    <!-- LEFT -->
+    <article class="middle grid-col-span-2">
+      <div class="img-container">
+        <img src="images/headline.avif" alt="dog-image" />
+
+        <div class="text-overlay">
+          <h1>
+            Woman who stole dog in ‘violent swarming attack’ sentenced by B.C. judge
+          </h1>
+
+          <p class="description">
+            A B.C. woman who stole her neighbour’s dog in a “violent swarming attack”
+            was convicted of robbery but won’t serve any time behind bars.
+          </p>
+           <small>1 hours ago | Local</small>
+        </div>
+      </div>
+    </article>
+
+
+
+    <!-- RIGHT -->
+    <article class="right">
+      <!-- top headline -->
+      <article class="top">
+        <div class="img-container">
+          <img src="images/top-hl.avif" alt="image" width="100%">
+        </div>
+        <div>
+          <h4>Dalhousie professors help bring Woody to life after mechanical malfunction</h4>
+          <p>University professors in Halifax swooped in and used their “mechanical magic” to help bring a beloved tradition to life this holiday season.</p>
+          <small>3 hrs ago | England</small>
+        </div>
+      </article>
+      <!-- botton headline -->
+      <article class="top">
+        <div class="img-container">
+          <img src="images/bottom-hl.avif" alt="image" width="100%">
+          </div>
+        <div>
+          <h4>Inside the Royal Family Christmas: Who’s in, and who’s out</h4  >
+          <p>Royal commentator Afua Hagen notes that as King Charles prepares for his second Christmas as King, the big question is: who will join his inner circle at Sandringham—and who will be left out?</p>
+           <small>3 hrs ago | England</small>
+        </div>
+      </article>
+    </article>
+
+
+  </section>
