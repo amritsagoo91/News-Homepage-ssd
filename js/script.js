@@ -3,11 +3,11 @@
 // Responsive Menu - Dropdown
 const body = document.body;
 const btnMenu = document.getElementById("btn-menu");
-const bar = document.getElementById("bar");
 const nav = document.getElementById("main-navigation");
 const backBtn = document.getElementById("back-btn");
 
 btnMenu.addEventListener("click", openMenu);
+
 // Prevents the focus state from activating
 btnMenu.addEventListener("mousedown", function (e) {
   e.preventDefault();
