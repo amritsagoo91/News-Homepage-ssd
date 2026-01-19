@@ -7,6 +7,16 @@ const bar = document.getElementById("bar");
 const nav = document.getElementById("main-navigation");
 const backBtn = document.getElementById("back-btn");
 
+const links = document.querySelectorAll("ul a");
+
+links.forEach((link) => {
+  link.addEventListener("click", () => {
+    {
+      link.setAttribute("href", "#" + link.textContent.toLocaleLowerCase());
+    }
+  });
+});
+
 btnMenu.addEventListener("click", openMenu);
 // Prevents the focus state from activating
 btnMenu.addEventListener("mousedown", function (e) {
