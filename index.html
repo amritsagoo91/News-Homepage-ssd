@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -25,9 +25,8 @@
           <span class="bar"></span>
         </span>
       </button>
-
-      <nav class="nav-menu" id="main-navigation" aria-label="Main navigation">
-        <a class="back-btn" id="back-btn" aria-label="Close menu">
+      <nav class="nav-menu" id="main-navigation">
+        <a class="back-btn" id="back-btn">
           <svg
             width="22"
             height="22"
@@ -47,23 +46,19 @@
 
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#canada">Canada</a></li>
-          <li><a href="#world">World</a></li>
-          <li><a href="#business">Business</a></li>
-          <li><a href="#politics">Politics</a></li>
-          <li><a href="#entertainment">Entertainment</a></li>
-          <li><a href="#science">Science</a></li>
-          <li><a href="#health">Health</a></li>
-          <li><a href="#indigenous">Indigenous</a></li>
+          <li><a href="#">Canada</a></li>
+          <li><a href="#">World</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">Politics</a></li>
+          <li><a href="#">Entertainment</a></li>
+          <li><a href="#">Science</a></li>
+          <li><a href="#">Health</a></li>
+          <li><a href="#">Indigenous</a></li>
         </ul>
       </nav>
     </header>
-
     <main>
-      <!-- =====================
-           HERO SECTION
-      ====================== -->
-      <section class="hero-section">
+      <section class="hero-section" id="home">
         <article>
           <div class="news-card">
             <img src="./images/top-hl.avif" alt="fed" />
@@ -80,7 +75,6 @@
               <small>9 hrs ago | Canada</small>
             </div>
           </div>
-
           <div class="news-card">
             <img src="./images/bottom-hl.avif" alt="fed" />
             <div class="news-content">
@@ -171,7 +165,7 @@
                 </p>
                 <small
                   >2 hours ago | Europe |
-                  <span class="news-status">&#9679; Live</span></small
+                  <span class="news-status"> &#9679; Live</span></small
                 >
               </div>
 
@@ -237,54 +231,53 @@
         </div>
 
         <div class="news-container">
-          <!-- Canada -->
           <div class="canada" id="canada">
             <div class="heading">
               <h2>Canada</h2>
             </div>
-            <section class="more-listing">
-              <div class="card">
-                <img src="./images/default_29.jpg" alt="farmers" />
-                <div class="card-content">
-                  <h3>
-                    Central Alberta farmers amazed to welcome triplet calves for
-                    2nd year in a row
-                  </h3>
-                  <small>12 Hours Ago</small>
-                </div>
+            <!-- <section class="more-listing"> -->
+            <div class="card">
+              <img src="./images/default_29.jpg" alt="farmers" />
+              <div class="card-content">
+                <h3>
+                  Central Alberta farmers amazed to welcome triplet calves for
+                  2nd year in a row
+                </h3>
+                <small>12 Hours Ago</small>
               </div>
+            </div>
 
-              <div class="card">
-                <div class="card-content">
-                  <span class="news-status"><small>NEW</small></span>
-                  <h3>
-                    Schizas wins 4th title, Gilles and Poirier capture 5th crown
-                    at Canadian figure skating championships
-                  </h3>
-                  <small>1 Hours Ago</small>
-                </div>
+            <div class="card">
+              <div class="card-content">
+                <span class="news-status"><small>NEW</small></span>
+                <h3>
+                  Schizas wins 4th title, Gilles and Poirier capture 5th crown
+                  at Canadian figure skating championships
+                </h3>
+                <small>1 Hours Ago</small>
               </div>
+            </div>
 
-              <div class="card">
-                <div class="card-content">
-                  <h3>
-                    Bank of Canada signals potential rate cuts as inflation
-                    continues to cool
-                  </h3>
-                  <small>3 Hours Ago</small>
-                </div>
+            <div class="card">
+              <div class="card-content">
+                <h3>
+                  Bank of Canada signals potential rate cuts as inflation
+                  continues to cool
+                </h3>
+                <small>3 Hours Ago</small>
               </div>
+            </div>
 
-              <div class="card">
-                <div class="card-content">
-                  <h3>
-                    Vancouver introduces new housing measures to tackle rising
-                    rental costs
-                  </h3>
-                  <small>5 Hours Ago</small>
-                </div>
+            <div class="card">
+              <div class="card-content">
+                <h3>
+                  Vancouver introduces new housing measures to tackle rising
+                  rental costs
+                </h3>
+                <small>5 Hours Ago</small>
               </div>
-            </section>
+            </div>
+            <!-- </section> -->
           </div>
 
           <!-- World -->
@@ -563,7 +556,6 @@
             </section>
           </div>
 
-          <!-- Indigenous -->
           <div class="indigenous" id="indigenous">
             <div class="heading">
               <h2>Indigenous</h2>
@@ -646,8 +638,11 @@
               <details class="body">
                 <summary>Read more</summary>
                 <p>
-                  Tip/technique: Use CSS Grid for the overall page, and Flexbox
-                  for repeating card layouts like these.
+                  The championship series has reached its breaking point as both
+                  teams prepare for a winner-take-all final after splitting the
+                  first two games. Game three showcased fast-paced skating,
+                  physical defense, and clutch goaltending, with neither side
+                  willing to give an inch.
                 </p>
               </details>
 
@@ -677,8 +672,11 @@
               <details class="body">
                 <summary>Read more</summary>
                 <p>
-                  Tip/technique: Use hover effects for affordance (underline
-                  slide-in, subtle image zoom, and a shadow lift).
+                  The winter transfer window has officially opened, and clubs
+                  across Europe are already moving quickly to strengthen their
+                  squads. With injuries, fixture congestion, and title races
+                  heating up, several teams are expected to make decisive moves
+                  in the coming weeks.
                 </p>
               </details>
 
@@ -708,8 +706,11 @@
               <details class="body">
                 <summary>Read more</summary>
                 <p>
-                  Tip/technique: Keep type scales consistent across breakpoints
-                  using clamp() for responsive headlines.
+                  After missing several crucial weeks due to injury, the star
+                  player has been cleared to return and is expected to rejoin
+                  the lineup ahead of the final stretch of the season. The
+                  comeback couldn’t come at a better time, as the team battles
+                  for playoff positioning.
                 </p>
               </details>
 
@@ -739,8 +740,11 @@
               <details class="body">
                 <summary>Read more</summary>
                 <p>
-                  Project highlight: This card layout is reusable for a
-                  portfolio—swap content to showcase your own projects.
+                  A dominant performance delivered exactly what the team needed,
+                  securing a playoff spot and providing a surge of confidence
+                  heading into the final weeks of the regular season. From the
+                  opening minutes, intensity and focus set the tone for a
+                  statement win.
                 </p>
               </details>
 
@@ -787,8 +791,11 @@
               <details class="body">
                 <summary>Read more</summary>
                 <p>
-                  Project idea: Build a small “price tracker” UI and use CSS
-                  animations to highlight changes.
+                  The rapid growth of artificial intelligence workloads has
+                  significantly increased demand for high-performance GPUs,
+                  putting pressure on global supply chains. Data centers,
+                  research institutions, and tech companies are prioritizing GPU
+                  purchases to support AI training and inference at scale.
                 </p>
               </details>
 
@@ -820,8 +827,11 @@
               <details class="body">
                 <summary>Read more</summary>
                 <p>
-                  Technique: Use :nth-child() to create subtle rhythm (staggered
-                  borders/accents) without extra classes.
+                  Smartphone manufacturers are placing renewed emphasis on
+                  battery life as consumers demand devices that last longer
+                  between charges. Advances in processor efficiency, display
+                  technology, and power management software are helping extend
+                  daily usage without increasing device size.
                 </p>
               </details>
 
@@ -853,8 +863,11 @@
               <details class="body">
                 <summary>Read more</summary>
                 <p>
-                  Tip: Use attribute selectors like [data-category="Technology"]
-                  for section-themed accents.
+                  As remote and hybrid work models continue, organizations are
+                  facing a steady rise in cybersecurity threats targeting
+                  distributed workforces. Phishing campaigns, ransomware
+                  attacks, and compromised credentials remain among the most
+                  common tactics used by attackers.
                 </p>
               </details>
 
@@ -886,8 +899,12 @@
               <details class="body">
                 <summary>Read more</summary>
                 <p>
-                  Technique: Use an animated “live” badge to draw attention
-                  without being distracting.
+                  The latest software update introduces a range of
+                  privacy-focused features designed to give users greater
+                  control over their personal data. Clearer permission prompts
+                  and simplified privacy dashboards aim to make it easier for
+                  users to understand how their information is collected and
+                  used.
                 </p>
               </details>
 
@@ -909,32 +926,31 @@
     </main>
 
     <footer class="site-footer">
-  <p>&copy; 2026 SSDP-2850. All rights reserved.</p>
+      <p>&copy; 2026 SSDP-2850. All rights reserved.</p>
 
-  <!-- Center Logo -->
-  <div class="footer-logo">
-    <div class="logo">
-      <img src="images/logo.png" alt="Site Logo" />
-    </div>
-  </div>
+      <!-- Center Logo -->
+      <div class="footer-logo">
+        <div class="logo">
+          <img src="images/logo.png" alt="Site Logo" />
+        </div>
+      </div>
 
-  <!-- Social Icons -->
-  <div class="footer-socials">
-    <a href="#" aria-label="Instagram">
-      <img src="images/instagram.png" alt="Instagram" />
-    </a>
-    <a href="#" aria-label="LinkedIn">
-      <img src="images/linkedin.png" alt="LinkedIn" />
-    </a>
-    <a href="#" aria-label="Facebook">
-      <img src="images/facebook.png" alt="Facebook" />
-    </a>
-    <a href="#" aria-label="Pinterest">
-      <img src="images/pinterest.png" alt="Pinterest" />
-    </a>
-  </div>
-</footer>
-
+      <!-- Social Icons -->
+      <div class="footer-socials">
+        <a href="#" aria-label="Instagram">
+          <img src="images/instagram.png" alt="Instagram" />
+        </a>
+        <a href="#" aria-label="LinkedIn">
+          <img src="images/linkedin.png" alt="LinkedIn" />
+        </a>
+        <a href="#" aria-label="Facebook">
+          <img src="images/Facebook.png" alt="Facebook" />
+        </a>
+        <a href="#" aria-label="Pinterest">
+          <img src="images/pinterest.png" alt="Pinterest" />
+        </a>
+      </div>
+    </footer>
 
     <script src="./js/script.js"></script>
   </body>
