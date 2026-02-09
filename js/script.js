@@ -5,6 +5,7 @@ const body = document.body;
 const btnMenu = document.getElementById("btn-menu");
 const nav = document.getElementById("main-navigation");
 const backBtn = document.getElementById("back-btn");
+const hamBurger = document.getElementsByClassName("hamburger-menu");
 
 const links = document.querySelectorAll("ul a");
 
@@ -17,8 +18,6 @@ links.forEach((link) => {
 });
 
 btnMenu.addEventListener("click", openMenu);
-
-// Prevents the focus state from activating
 btnMenu.addEventListener("mousedown", function (e) {
   e.preventDefault();
 });
@@ -49,6 +48,7 @@ backBtn.addEventListener("click", () => {
 });
 
 function openMenu() {
+ 
   btnMenu.classList.toggle("active");
   nav.classList.toggle("active");
   body.classList.toggle("menu-open");
