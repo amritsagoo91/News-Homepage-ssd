@@ -23,8 +23,6 @@ body {
   background-color: var(--bg);
   font-family: "Ubuntu", sans-serif;
   color: #fff;
-  display: flex;
-  flex-direction: column;
 }
 
 /* =====================
@@ -178,7 +176,7 @@ main {
   gap: 1.5rem;
   margin-inline: auto;
   border-bottom: 1px #777 solid;
-1}
+}
 
 .hero-section article:nth-child(2) img {
   width: 100%;
@@ -357,6 +355,7 @@ h1 {
   font-weight: bolder;
 }
 
+#home:target,
 #canada:target,
 #world:target,
 #business:target,
@@ -629,7 +628,7 @@ h1 {
     list-style: none;
   }
 
-   .nav-menu ul li {
+  .nav-menu ul li {
     width: 100%;
     margin: 5px 0;
   }
